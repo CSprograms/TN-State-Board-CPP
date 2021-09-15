@@ -12,6 +12,9 @@ int main()
     float basic, da, hra, gpf, tax, gross, np;
     char name[30];
 
+    cout<<"\n Enter the Name: ";
+    cin>>name;
+
     cout<<"\n Enter Basic Pay: ";
     cin>>basic;
 
@@ -22,23 +25,28 @@ int main()
     cin>>hra;
 
     gross = basic + da + hra; // sum of basic, da and hra
-    gpf = ( basic + da ) * 0.10; // 10% 0f basic and da
+
+    gpf = ( basic + da ) * 0.10; // 10% of basic and da
+
     tax = gross * 0.10; //10% of gross pay
+
     np = gross - ( gpf + tax ); //netpay = earnings - deductions
-
-    cout<<setw(25)<<"Basic Pay : "<<setw(10)<<basic<<endl;
-
-    cout<<setw(25)<<"Dearness Allowance : "<<setw(10)<<da<<endl;
-
-    cout<<setw(25)<<"House Rent Allowance : "<<setw(10)<<hra<<endl;
-
-    cout << setw(25)<<"Gross Pay : "<<setw(10)<<gross<<endl;
-
-    cout << setw(25)<<"G.P.F : "<<setw(10)<<gpf<<endl;
-
-    cout << setw(25)<<"Income Tax : "<<setw(10)<<tax<<endl;
-
-    cout << setw(25)<<"Net Pay : "<<setw(10)<<np<<endl;
+    cout<<left;
+    cout<<setw(25)<<"Name"<<" : "<<setw(10)<<name<<endl;
+    cout<<left;
+    cout<<setw(25)<<"Basic Pay"<<" : "<<right<<setw(10)<<basic<<endl;
+    cout<<left;
+    cout<<setw(25)<<"Dearness Allowance"<<" : "<<right<<setw(10)<<da<<endl;
+    cout<<left;
+    cout<<setw(25)<<"House Rent Allowance"<<" : "<<right<<setw(10)<<hra<<endl;
+    cout<<left;
+    cout << setw(25)<<"Gross Pay"<<" : "<<right<<setw(10)<<gross<<endl;
+    cout<<left;
+    cout << setw(25)<<"G.P.F"<<" : "<<right<<setw(10)<<gpf<<endl;
+    cout<<left;
+    cout << setw(25)<<"Income Tax"<<" : "<<right<<setw(10)<<tax<<endl;
+    cout<<left;
+    cout << setw(25)<<"Net Pay"<<" : "<<right<<setw(10)<<np<<endl;
 
 return 0;
 }
