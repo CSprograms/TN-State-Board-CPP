@@ -15,10 +15,13 @@ int main()
 
     if ( marks >= 60 )
         cout<<"Your grade is 1st class !!"<<endl;
+
     else if ( marks >= 50 && marks < 60 )
         cout<<"Your grade is 2nd class !!"<<endl;
+
     else if ( marks >= 40 && marks < 50 )
         cout<<"Your grade is 3rd class !!"<<endl;
+
     else
         cout<<"You are fail !!"<<endl;
 
