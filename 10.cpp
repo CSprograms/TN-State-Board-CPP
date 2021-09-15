@@ -15,6 +15,9 @@ int main()
 
     cout<<(int)varf<<endl;
 
+    cout<<"Double : "<<sizeof(double)<<endl;
+    cout<<"Float : "<<sizeof(float)<<endl;
+
 return 0;
 }
 
