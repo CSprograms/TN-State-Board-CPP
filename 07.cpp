@@ -14,8 +14,8 @@ int main()
     cout<<"\n Enter Radius (in cm): ";
     cin>>radius;
 
-    float perimeter = (pi+2)*radius;  // dynamic initialization
-    float area = (pi*radius*radius)/2; // dynamic initialization
+    float perimeter = ( pi + 2 ) * radius;  // dynamic initialization
+    float area = ( pi * radius * radius ) / 2; // dynamic initialization
 
     cout<<"\n Perimeter of the semicircle is "<<perimeter<<" cm";
     cout<<"\n Area of the semicircle is "<<area<<" sq.cm";
