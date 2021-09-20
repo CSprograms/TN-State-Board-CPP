@@ -17,3 +17,22 @@ C++ Program Index
 13 Nested if statement -- Calculate commission according to grade
 14 if-else ladder -- Grade calculation
 15 Conditional operator -- Greatest of two numbers
+16 switch statement -- Weekdays
+17 for loop -- printing 0 to 9
+18 for loop -- sum of 1 to 10
+19 for loop -- sum of 1 to n
+20 while loop -- sum of 1 to 10
+21 while loop -- sum and average of 5 numbers
+22 do while loop -- printing 10 to 1
+23 nested loop -- matrix multiplication
+24 goto -- First five odd numbers
+25 break -- counting N numbers
+26 continue -- Printing 1 to 10, except 6
+27 Accept a character and display it.
+28 Accept and display a string.
+29 Checking for Alpha-Numeric
+30 Checking for Alpha-Numeric - Version 2
+31 Checking for isdigit
+32 Built-In Function - strcpy(target, source)
+33 Built-In Function - strlen(string)
+34 Built-In Function - strcmp(string1, string2)
