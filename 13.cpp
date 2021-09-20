@@ -8,25 +8,24 @@ using namespace std;
 
 int main()
 {
-    int sales, commission;                          //  char grade;
+    int sales, commission;
+    char grade;
 
-    cout<<"\n Enter Sales amount: ";
-    cin>>sales;                                         // cout<<"\n Enter Grade: ";    cin>>grade;
+    cout << "\n Enter Sales amount: ";
+    cin >> sales;
 
-// if sales greater than 5000, commission = 10% of sales; Otherwise commission = 10% of sales.
+    cout << "\n Enter Grade: ";
+    cin >> grade;
 
     if ( sales > 5000 )
     {
-        commission = sales * 0.10;
-        cout<<"\n Commission: "<<commission;
+        if (grade == 'A' )
+            commission = sales * 0.10;
+        else
+            commission = sales * 0.05;
+        cout << "\n Commission: " << commission;
+        cout << "\n Good Job ..... ";
     }
-    else
-    {
-        commission = sales * 0.05;
-        cout<<"\n Commission: "<<commission;
-    }
-
-    cout << "\n Good Job ..... ";
 
 return 0;
 }
