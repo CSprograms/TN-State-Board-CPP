@@ -11,9 +11,10 @@ int main ()
 
     for(i=1; i<=10;i++)
     {
-        sum=sum+i;
+        sum += i;
     }
 
     cout<<"The sum of 1 to 10 is "<<sum;
+
 return 0;
 }
