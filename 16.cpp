@@ -22,7 +22,7 @@ int main()
             cout << "\n Tuesday";
             break;
         case 4 :
-            cout << "\n Wednessday";
+            cout << "\n Wednesday";
             break;
         case 5 :
             cout << "\n Thursday";
@@ -33,9 +33,10 @@ int main()
         case 7 :
             cout << "\n Saturday";
             break;
-        defau lt:
+        default:
             cout << "\n Wrong input....";
-        }
+    }
+
 return 0;
 }
 
