@@ -9,8 +9,8 @@ int main ()
 {
     int i;
 
-    for(i = 0; i< 10; i ++ )
-        cout<< "value of i : " <<i<<endl;
+    for( i = 0; i< 10; i ++ )
+        cout<<"value of i : " <<i<<endl;
 
 return 0;
 }
