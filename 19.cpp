@@ -9,15 +9,18 @@ int main ()
 {
     int i, sum=0, n;
 
-    cout<<"\n Enter The value of n";
-    cin>>n; i =1;
+    cout<<"\n Enter The value of n : ";
+    cin>>n;
 
-    for (  ; i<=n;  )
+    i =1;
+
+    for (  ; i <= n;  )
     {
         sum += i;
         ++i;
     }
 
     cout<<"\n The sum of 1 to " <<n<<"is "<<sum;
+
 return 0;
 }
