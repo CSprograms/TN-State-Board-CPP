@@ -10,6 +10,7 @@ int main()
 {
     char target[50] = "Learning C++ is fun";
 	char source[50] = " , easy and Very useful";
+
 	strcat(target, source);
 
 	cout << target ; return 0;
