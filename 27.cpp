@@ -10,8 +10,10 @@ int main()
 {
     cout<<"\n Type a Character : ";
     char ch = getchar();
+
     cout << "\n The entered Character is: ";
     putchar(ch);
+
 return 0;
 }
 /*
