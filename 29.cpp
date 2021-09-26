@@ -18,6 +18,7 @@ int main()
     r = isalnum(ch);
 
     cout<<"\nThe Return Value of isalnum(ch) is :"<<r;
+
 return 0;
 }
 /*
@@ -27,4 +28,7 @@ The Return Value of isalnum(ch) is :1
 Output-2:
 Type a Character :?
 The Return Value of isalnum(ch) is :0
+Output-3:
+Type a Character :a
+The Return Value of isalnum(ch) is :2
 */
