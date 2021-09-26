@@ -10,9 +10,12 @@ using namespace std;
 int main()
 {
     char ch;
+
     cout << "\n Enter a charater: ";
     ch = getchar();
+
     cout<<"\n The Return Value of isalpha(ch) is :" << isalpha(ch) ;
+
 return 0;
 }
 /*
@@ -22,4 +25,7 @@ The Return Value of isalpha(ch) is :1
 Output-2:
 Enter a charater: 7
 The Return Value of isalpha(ch) is :0
+Output-1:
+Enter a charater: a
+The Return Value of isalpha(ch) is :2
 */
