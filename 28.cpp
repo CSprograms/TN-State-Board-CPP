@@ -9,10 +9,13 @@ using namespace std;
 int main()
 {
     char str[50];
+
     cout<<"Enter a string : ";
     gets(str);
+
     cout<<"You entered: ";
     puts(str);
+
 return(0);
 }
 /*
