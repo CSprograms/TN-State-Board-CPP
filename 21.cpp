@@ -7,26 +7,22 @@ Page : 169
 using namespace std;
 int main ()
 {
-    int i=1,num,avg,sum=0;
+    int i = 1, num, sum = 0;
+    float  avg;
+
     while(i<=5)
     {
         cout<<"Enter the number : ";
         cin>>num;
-        sum=sum+num;
+
+        sum = sum + num;
         i++;
     }
-    avg=sum/5;
+
+    avg = sum/5.0;
+
     cout<<"The sum is "<<sum<<endl;
     cout<<"The average is "<<avg;
+
 return 0;
 }
-/*
-Output
-Enter the number : 1
-Enter the number : 2
-Enter the number : 3
-Enter the number : 4
-Enter the number : 5
-The sum is 15
-The average is 3
-*/
