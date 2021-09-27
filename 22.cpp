@@ -11,12 +11,13 @@ int main ()
 
     do
     {
-        cout<<n<<", ";
+        cout<<n;
         n--;
+        if (n > 0)
+            cout<<", ";
+        else
+            cout<<".";
     }while (n>0) ;
 
     return 0;
 }
-/*
-Output 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
-*/
