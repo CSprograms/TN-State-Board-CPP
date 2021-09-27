@@ -18,8 +18,3 @@ int main()
 
 return(0);
 }
-/*
-Output :
-Enter a string : Computer Science
-You entered: Computer Science
-*/
