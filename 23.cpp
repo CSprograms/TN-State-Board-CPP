@@ -7,7 +7,7 @@ Page : 172
 using namespace std;
 int main(void)
 {
-    cout<< "A multiplication table:" <<endl <<"  1\t2\t3\t4\t5\t6\t7\t8\t9" <<endl<< "" <<endl;
+    cout<< "A multiplication table:" <<endl <<"  1 \t 2 \t 3 \t 4 \t 5 \t 6 \t 7 \t 8 \t 9" <<endl<< "" <<endl;
 
     for(int c = 1; c < 10; c++)
     {
