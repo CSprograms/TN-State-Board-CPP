@@ -16,8 +16,3 @@ int main()
 
 return 0;
 }
-/*
-Output:
-Type a Character : T
-The entered Character is: T
-*/
