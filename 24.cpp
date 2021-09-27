@@ -23,6 +23,3 @@ jump:
             return 0;
     }
 }
-/*
-Output 1  2  5  7  9
-*/
