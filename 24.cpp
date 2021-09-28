@@ -7,19 +7,17 @@ Page : 174
 using namespace std;
 int main()
 {
+
     int n=1;
 
 jump:
-    {
-        if(n<10)
-        {
-            cout<<n<<'\t';
 
-            n+=2;
+    cout<<n<<'\t';
 
-            goto jump;          // Control of the program move to jump:
-        }
-        else
-            return 0;
-    }
+    n+=2;
+
+    if(n<10)
+        goto jump;          // Control of the program move to jump:
+
+return 0;
 }
