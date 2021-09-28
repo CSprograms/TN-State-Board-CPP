@@ -1,6 +1,6 @@
 /*
 Illustration 10.13
-nested loop -- matrix multiplication
+nested loop -- multiplication table
 Page : 172
 */
 #include<iostream>
