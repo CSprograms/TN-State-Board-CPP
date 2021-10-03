@@ -11,9 +11,10 @@ int main()
     char str[50];
 
     cout<<"Enter a string : ";
-    gets(str);
+    //gets(str);
+    cin>>str;
 
-    cout<<"You entered: ";
+    cout<<"\n You entered: ";
     puts(str);
 
 return(0);
