@@ -26,9 +26,12 @@ Output-1:
 Type a Character :A
 The Return Value of isalnum(ch) is :1
 Output-2:
-Type a Character :?
+Type a Character :-0
 The Return Value of isalnum(ch) is :0
 Output-3:
 Type a Character :a
 The Return Value of isalnum(ch) is :2
+ Type a Character :8
+Type a Character :6
+The Return Value of isalnum(ch) is :4
 */
